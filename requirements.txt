@@ -1,8 +1,10 @@
-flask
 numpy
 pandas
 opencv-python
 torch
 torchvision
-scikit-learn
 matplotlib
+flask
+PyYAML
+scikit-learn
+nltk
