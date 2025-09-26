@@ -3,18 +3,21 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.sqlite3
 
-# Virtual environments
+# Virtual env
 venv/
-.env
+env/
 
-# VS Code
+# Jupyter
+.ipynb_checkpoints
+
+# VSCode
 .vscode/
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Jupyter
-.ipynb_checkpoints/
+# Models & Data
+models/
+data/
