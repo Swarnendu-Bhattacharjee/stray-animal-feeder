@@ -1,0 +1,29 @@
+# ==========================================================
+# Stray Animal Feeder - Project Configuration
+# ==========================================================
+
+nlp_bot:
+  model_name: "gpt2"
+  max_tokens: 256
+  temperature: 0.7
+  top_p: 0.9
+  repetition_penalty: 1.2
+
+feeder_robot:
+  default_food_amount: 50
+  max_capacity: 1000
+
+cv_module:
+  model_path: "./models/cv_model"
+  detection_threshold: 0.5
+  camera_source: 0  # default webcam, replace with IP if networked
+
+logging:
+  log_file: "./logs/straymate.log"
+  level: "INFO"
+  format: "[%(asctime)s] [%(levelname)s] %(message)s"
+
+general:
+  project_name: "Stray Animal Feeder"
+  author: "Swarnendu Bhattacharjee"
+  version: "1.0.0"
