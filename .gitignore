@@ -1,0 +1,36 @@
+<<<<<<< HEAD
+*~
+build
+_build
+*.pyc
+*.DS_Store
+direct_omp.c
+testdata*
+docs/_static/*png
+docs/*png
+.DS_Store
+=======
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models & Data
+models/
+data/
+>>>>>>> 2fa1d1912de8939fb0dd59b37224745374ea2b98
