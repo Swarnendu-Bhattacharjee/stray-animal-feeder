@@ -1,0 +1,13 @@
+# Handle text files
+* text=auto
+
+# Treat certain files as binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.gz binary
+*.zip binary
+
+# Ensure Python scripts use LF
+*.py text eol=lf
