@@ -1,0 +1,32 @@
+/*
+  StrayMate Feeder Arduino Firmware
+  Controls motors, servos, and sensors
+*/
+
+#include <Servo.h>
+
+// Pins
+const int servoPin = 9;
+const int motorPin = 3;
+
+Servo feederServo;
+
+void setup() {
+  Serial.begin(9600);
+  feederServo.attach(servoPin);
+  pinMode(motorPin, OUTPUT);
+}
+
+void loop() {
+  // Example: rotate servo to dispense food
+  feederServo.write(90);
+  delay(1000);
+  feederServo.write(0);
+  delay(1000);
+
+  // Example: run motor
+  analogWrite(motorPin, 150);
+  delay(2000);
+  analogWrite(motorPin, 0);
+  delay(2000);
+}
