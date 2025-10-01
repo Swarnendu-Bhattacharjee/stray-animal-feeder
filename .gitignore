@@ -31,6 +31,5 @@ env/
 Thumbs.db
 
 # Models & Data
-models/
 data/
 >>>>>>> 2fa1d1912de8939fb0dd59b37224745374ea2b98
