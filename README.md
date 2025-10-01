@@ -16,6 +16,8 @@ It integrates:
 
 This system is designed for real-time monitoring, emergency SOS alerts, and intelligent feeding schedules.
 
+![StrayMate Visuals](assets/poster_straymate.png) (assets/straymate_technical_overview.png)
+
 ---
 
 ## Key Features
